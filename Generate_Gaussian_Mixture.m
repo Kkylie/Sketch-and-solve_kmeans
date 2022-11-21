@@ -25,7 +25,9 @@
 % Outputs: 
 %
 %               -X:
-%               Data generated from Gaussian mixture model.
+%               A n x d data matrix generated from Gaussian mixture model,
+%               where d denotes the dimension of the data and n denotes 
+%               the number of points.
 %               
 % References:
 % [1] S. Vassilvitskii, D. Arthur, k-means++: The advantages of careful

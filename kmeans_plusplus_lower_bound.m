@@ -9,7 +9,7 @@
 % Inputs: 
 %               -X: 
 %               A n x d data matrix, where d denotes the dimension of 
-%               the data and N denotes the number of points.
+%               the data and n denotes the number of points.
 %
 %               -k:
 %               The number of clusters.

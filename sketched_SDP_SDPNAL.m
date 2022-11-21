@@ -62,9 +62,8 @@
 %       to k-means clustering by semidefinite programming.
 % [2] J. Peng, Y. Wei, Approximating k-means-type clustering via 
 %       semidefinite programming.
-% [3] D. F. Sun, L. Q. Yang, K. C. Toh, Sdpnal+: A majorized semismooth 
-%       newton-cg augmented lagrangian method for semidefinite programming 
-%       with nonnegative constraints.
+% [3] D. F. Sun, K. C. Toh, Y. Yuan, X. Y. Zhao, SDPNAL+: A Matlab software
+%       for semidefinite programming with bound constraints (version 1.0).
 % -------------------------------------------------------------------------
 
 function [objective_d, S0_vec, At_mat, D_vec, b, check_dual_feasible] = ...

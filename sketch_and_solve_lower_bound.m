@@ -10,7 +10,7 @@
 % Inputs: 
 %               -X: 
 %               A n x d data matrix, where d denotes the dimension of 
-%               the data and N denotes the number of points.
+%               the data and n denotes the number of points.
 %
 %               -k:
 %               The number of clusters.
@@ -57,9 +57,8 @@
 %       to k-means clustering by semidefinite programming.
 % [2] M. Grant, S. Boyd, CVX: Matlab software for disciplined convex 
 %       programming.
-% [3] D. F. Sun, L. Q. Yang, K. C. Toh, Sdpnal+: A majorized semismooth 
-%       newton-cg augmented lagrangian method for semidefinite programming 
-%       with nonnegative constraints.
+% [3] D. F. Sun, K. C. Toh, Y. Yuan, X. Y. Zhao, SDPNAL+: A Matlab software
+%       for semidefinite programming with bound constraints (version 1.0).
 % -------------------------------------------------------------------------
 
 function [B_H, B_M, Time_SDP, Num_B_truncations, Total_B_truncation] ...

@@ -9,7 +9,7 @@
 %               k-means++ initialization [7].
 %               This procedure prints out numerical results in Table 1 and
 %               Table 2 in [1].
-%               This Requires CVX [3] and SDPNAL+0.3 [6].
+%               This requires CVX [3] and SDPNAL+0.3 [6].
 % 
 %
 % Input: 
@@ -25,9 +25,8 @@
 %       programming.
 % [4] KDD Cup 1999 dataset.
 % [5] Y. LeCun, C. Cortes, MNIST handwritten digit database.
-% [6] D. F. Sun, L. Q. Yang, K. C. Toh, Sdpnal+: A majorized semismooth 
-%       newton-cg augmented lagrangian method for semidefinite programming 
-%       with nonnegative constraints.
+% [6] D. F. Sun, K. C. Toh, Y. Yuan, X. Y. Zhao, SDPNAL+: A Matlab software
+%       for semidefinite programming with bound constraints (version 1.0).
 % [7] S. Vassilvitskii, D. Arthur, k-means++: The advantages of careful
 %       seeding.
 % -------------------------------------------------------------------------
